@@ -1,6 +1,6 @@
-# hybrid-enc
+# Lockbox
 
-File encryption from the terminal. RSA-2048 for key exchange, AES-256-GCM for the data — same idea as TLS.
+File encryption from the terminal. RSA-2048 for key exchange, AES-256-GCM for the data same idea as TLS.
 
 ## install
 
@@ -47,4 +47,4 @@ keys/     — generated keys land here
 
 ## errors
 
-bad passphrase, wrong key, missing file — all fail loudly with a message and exit code 1.
+bad passphrase, wrong key, missing file — all fail with a message and exit code 1.
