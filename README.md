@@ -44,7 +44,3 @@ box.py    — encrypt/decrypt logic
 run.py    — CLI
 keys/     — generated keys land here
 ```
-
-## errors
-
-bad passphrase, wrong key, missing file — all fail with a message and exit code 1.
